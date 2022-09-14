@@ -1,6 +1,8 @@
 #include "main.h"
 /**
- * print_alphabet - print alphabet
+ * print_alphabet - Entry point
+ * Description - prints the alphabets in lowercase
+ * return
  */
 void print_alphabet(void)
 {
@@ -12,5 +14,5 @@ void print_alphabet(void)
 		++a;
 	}
 
-	_putchar(10);
+	_putchar('n/');
 }
