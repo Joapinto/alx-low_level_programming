@@ -1,20 +1,19 @@
 #include "main.h"
 /**
- * main - main function
- *
- * Return: End program
- */
+  * main - Entry point
+   * Description: Print _putchar followed by a new line
+   * Return: 0
+   */
 int main(void)
 {
-	char string[8] = "_putchar";
-	int n = 0;
+	char c[8] = "_putchar";
+	int i = 0;
 
-	while (n < 8)
+	while (i < 8)
 	{
-		_putchar(string[n]);
-		++n;
+	_putchar(c[i]);
+	i++;
 	}
-
 	_putchar('\n');
 	return (0);
 }
