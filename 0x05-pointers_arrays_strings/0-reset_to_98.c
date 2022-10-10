@@ -1,11 +1,16 @@
 #include "main.h"
 /**
- * reset_to_98 - takes reset its value to 98.
- * @n: input int.
- * return: void.
+ * main - 0-reset_to_98.c
+ * Description: Write a function that takes a pointer to an int
+ * Return: Always 0.
  */
-void reset_to_98(int *n)
+int main(void)
 {
-	*n = 98;
+	int n,
 
+	n = 98
+printf("n=%d\n", n);
+	reset_to_98(&n);
+	printf("n=%d\n", n);
+	return (0);
 }

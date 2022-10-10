@@ -1,13 +1,16 @@
 #include "main.h"
 /**
- * swap_int  - takes reset its value to 98.
- * @a: first int.
- * @b: second int.
- * return: void.
+ * main - void swap_int(int *a, int *b);
+ * Description: Write a function that swaps the values of two integers.
+ * Return: Always 0.
  */
-void swap_int(int *a, int *b)
+int main(void)
 {
-	int c = *b;
-	*b = *a;
-	*a = c;
+	int a;
+	int b;
+
+	printf("a=%d, b=%d\n", a, b);
+	swap_int(&a, &b);
+	printf("a=%d, b=%d\n", a, b);
+	return (0);
 }
